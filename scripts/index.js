@@ -5,3 +5,8 @@ tag.forEach(el => {
     el.classList.toggle('current');
   })
 })
+
+function dropdown(val){
+  var y = document.getElementsByClassName('dropdown-toggle pagination__dropdown__button');
+  var aNode = y[0].innerHTML=val;
+  }

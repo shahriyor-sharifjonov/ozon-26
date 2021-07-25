@@ -558,12 +558,14 @@ body{
     &__button{
       display: flex;
       align-items: center;
-      justify-content: space-around;
+      justify-content: space-between;
       background: #fff;
       border-radius: 6px;
       height: 38px;
       padding: 0 16px;
       color: #9F9F9F;
+      border: none;
+      min-width: 170px;
 
       &:hover{
         color: #9F9F9F;
